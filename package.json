@@ -1,0 +1,40 @@
+{
+  "name": "sensat-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape -r ts-node/register test/*.test.js",
+    "build": "tsc",
+    "start": "node ./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelpickup/friendly-goggles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelpickup/friendly-goggles/issues"
+  },
+  "homepage": "https://github.com/joelpickup/friendly-goggles#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.3",
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.8",
+    "@types/mysql": "^2.15.19",
+    "@types/pg": "^8.6.1",
+    "@types/yargs": "^17.0.4",
+    "axios": "^0.23.0",
+    "tape": "^5.3.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "js-yaml": "^4.1.0",
+    "koa": "^2.13.4",
+    "mysql": "^2.18.1",
+    "yargs": "^17.2.1"
+  }
+}

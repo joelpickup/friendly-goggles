@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "module": "CommonJS",
+    "esModuleInterop": true
+  },
+  "include": ["./src"]
+}

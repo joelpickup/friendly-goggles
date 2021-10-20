@@ -1,0 +1,5 @@
+user: readonly
+password: sensat_interview_r0
+host: interviews.ctsaq8pbcych.eu-west-2.rds.amazonaws.com
+port: 3306
+database: interviews
